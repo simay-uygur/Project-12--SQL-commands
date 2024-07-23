@@ -11,6 +11,7 @@ List all columns in the film table where the title starts with the letter 'C', t
 
 The Queries are:
 
+```
 -- Task1
 
 SELECT * 
@@ -30,3 +31,4 @@ WHERE title ILIKE '%t%t%t%t';
 SELECT * FROM film
 WHERE title LIKE 'C%' AND length > 90 AND rental_rate = 2.99;
 
+```
